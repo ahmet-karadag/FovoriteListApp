@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C6D3BE32AB87C3A00BDDA3A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D3BE22AB87C3A00BDDA3A /* Header.swift */; };
+		1C90AFFD2ADDA815001A9EF9 /* FButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C90AFFC2ADDA815001A9EF9 /* FButton.swift */; };
 		1CAD929B2AB77B650040B12B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD929A2AB77B650040B12B /* Profile.swift */; };
 		1CAD929D2AB77BDC0040B12B /* FovoriteListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD929C2AB77BDC0040B12B /* FovoriteListItems.swift */; };
 		1CAD929F2AB77BFD0040B12B /* NewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD929E2AB77BFD0040B12B /* NewItem.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		1C6D3BE22AB87C3A00BDDA3A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		1C90AFFC2ADDA815001A9EF9 /* FButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FButton.swift; sourceTree = "<group>"; };
 		1CAD929A2AB77B650040B12B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		1CAD929C2AB77BDC0040B12B /* FovoriteListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FovoriteListItems.swift; sourceTree = "<group>"; };
 		1CAD929E2AB77BFD0040B12B /* NewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItem.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				1CAD92A32AB77CE90040B12B /* Register.swift */,
 				1CAD929C2AB77BDC0040B12B /* FovoriteListItems.swift */,
 				1C6D3BE22AB87C3A00BDDA3A /* Header.swift */,
+				1C90AFFC2ADDA815001A9EF9 /* FButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C90AFFD2ADDA815001A9EF9 /* FButton.swift in Sources */,
 				1CAD92B02AB77FB90040B12B /* FavoriteListViewModel.swift in Sources */,
 				1CE9B2D82AB629A800C7893E /* MainView.swift in Sources */,
 				1CAD929F2AB77BFD0040B12B /* NewItem.swift in Sources */,

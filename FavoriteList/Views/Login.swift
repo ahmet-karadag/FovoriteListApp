@@ -15,26 +15,25 @@ struct Login: View {
         NavigationView{
             VStack {
                 //header
-                 Header()
+                Header(title: "Favorite List", subtitle: "finished things", angle: 16, background: .green)
                 //Login
                 Form{
                     TextField("email",text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .textFieldStyle(DefaultTextFieldStyle())
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
                     SecureField("password", text: $password)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                    Button(action: {
-                        //make log in
-                    }, label: {
-                        ZStack {
-                            RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
-                                .foregroundStyle(Color(.blue))
-                            Text("Log in")
-                                .foregroundStyle(Color(.white))
-                                .bold()
-                               
-                        }
-                    }).padding()
+                        .textFieldStyle(DefaultTextFieldStyle())
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
+                    
+                    FButton(title: "Log in", bacground: .blue) {
+                        //wil be done later
+                    }.padding()
+                    
                 }
+                .offset(y: -50)
 
                 
                 //account
